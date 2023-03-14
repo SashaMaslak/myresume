@@ -12,6 +12,9 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 
 const Header = () => {
   const [isOpenModal, setIsOpenModal] = useState(false);
+  // const [isScreenTablet, setIsScreenTablet] = useState(
+  //   window.matchMedia('(min-width: 768px)').matches
+  // );
 
   const isScreenTablet = window.matchMedia('(min-width: 768px)').matches;
 

@@ -5,14 +5,7 @@ import Footer from './Footer/Footer';
 
 export const App = () => {
   return (
-    <Body
-      style={{
-        height: '100vh',
-        margin: 'auto',
-        maxWidth: '1024px',
-        padding: '2px 16px',
-      }}
-    >
+    <Body>
       <Header />
       <Main />
       <Footer />
