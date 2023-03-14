@@ -8,4 +8,5 @@ export const ListExpStyled = styled.ul`
 export const ItemExpStyled = styled.li`
   list-style: disc;
   text-align: left;
+  margin-left: 24px;
 `;

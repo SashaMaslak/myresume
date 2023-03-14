@@ -14,6 +14,7 @@ export const SummaryStyled = styled.div`
     padding: 16px 48px;
   }
   padding: 32px;
+  max-width: 600px;
 `;
 
 export const TitleWrapper = styled.div`

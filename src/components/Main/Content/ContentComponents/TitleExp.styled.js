@@ -2,14 +2,12 @@ import styled from 'styled-components';
 
 export const TitleWrapper = styled.div`
   display: flex;
-  /* @media screen and (min-width: 768px) {
-    display: block;
-  } */
 `;
 
 export const TitleExpStyled = styled.h4`
   margin-right: 16px;
   font-size: 16px;
+  text-align: left;
 `;
 
 export const TitleLink = styled.a`
