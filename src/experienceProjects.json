@@ -2,7 +2,7 @@
   {
     "name": "FINAL PROJECT",
     "teamProject": true,
-    "startDate": null,
+    "startDate": "SEP 2023",
     "finishDate": "SEP 2023",
     "url": "https://google.com",
     "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]"]

@@ -6,6 +6,7 @@ export const LinkItem = styled.a`
   font-weight: 500;
   line-height: 140%;
   text-decoration: none;
+
   :hover,
   :focus {
     cursor: pointer;
