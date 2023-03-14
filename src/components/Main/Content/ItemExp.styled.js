@@ -9,4 +9,5 @@ export const InfoColumn = styled.section`
   display: flex;
   gap: 18px;
   align-items: center;
+  justify-content: start;
 `;

@@ -36,14 +36,14 @@ const ContactItem = ({ title, text }) => {
 
   return (
     <li>
-      <LinkItem href={func(title)} target="_blank">
+      <LinkItem>
         <StyledItem>
           <IconWrapper>
             {title === 'Phone:' && <BsTelephoneInbound size={28} />}
             {title === 'Email:' && <BsEnvelope size={28} />}
             {title === 'Address:' && <SlLocationPin size={28} />}
           </IconWrapper>
-          <ContactWrapper>
+          <ContactWrapper href={func(title)} target="_blank">
             <ContactTitleText>{title}</ContactTitleText>
             <ContactText>{text}</ContactText>
           </ContactWrapper>

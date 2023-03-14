@@ -8,7 +8,7 @@ export const SummaryStyled = styled.div`
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.85);
   text-align: center;
   padding: 16px 48px;
 `;

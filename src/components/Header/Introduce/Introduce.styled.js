@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const IntroduceStyled = styled.div`
-  min-width: 275px;
   padding: 8px;
   text-align: center;
+  flex: 1 0 85%;
 `;
 
 export const StyledTitle = styled.h1`

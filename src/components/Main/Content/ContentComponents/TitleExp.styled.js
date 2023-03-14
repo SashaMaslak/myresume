@@ -38,7 +38,7 @@ export const IconPerson = styled.span`
     bottom: 20px;
     margin-left: 0px;
     padding: 2px;
-    left: 0;
+    left: -103px;
     width: 110px;
     font-size: 0.75em;
     color: #fff;
@@ -56,7 +56,7 @@ export const IconPerson = styled.span`
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     bottom: 14px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   :hover:before,
   :hover:after {

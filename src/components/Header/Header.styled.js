@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HeaderStyled = styled.div`
   margin: auto;
   position: relative;
-  width: 320px;
+  min-width: 320px;
 `;
 
 export const About = styled.div`
@@ -16,7 +16,6 @@ export const Hero = styled.div`
   width: 100%;
   background-color: rgba(244, 214, 68, 0.82);
   display: flex;
-  justify-content: space-between;
   align-items: center;
   position: absolute;
   left: 50%;

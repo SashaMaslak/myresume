@@ -1,11 +1,9 @@
 import styled from 'styled-components';
 
-export const LinkItem = styled.a`
+export const LinkItem = styled.div`
   position: relative;
-  color: #595a5a;
-  font-weight: 500;
-  line-height: 140%;
-  text-decoration: none;
+  margin-left: auto;
+  flex: 0 1 10%;
 
   :hover,
   :focus {
@@ -15,11 +13,12 @@ export const LinkItem = styled.a`
     svg {
       color: #8c52ff;
     }
-    p {
+    p,
+    a {
       visibility: visible;
       opacity: 1;
     }
-    div {
+    a {
       display: flex;
     }
   }
@@ -64,11 +63,15 @@ export const ContactText = styled.p`
   line-height: 110%;
 `;
 
-export const ContactWrapper = styled.div`
+export const ContactWrapper = styled.a`
   display: none;
   position: fixed;
+  color: #8c52ff;
+  font-weight: 500;
+  line-height: 140%;
+  text-decoration: none;
   padding: 0px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.85);
   right: 50px;
   padding: 8px;
   border-radius: 6px;
