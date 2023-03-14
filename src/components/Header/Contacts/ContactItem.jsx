@@ -16,17 +16,14 @@ const ContactItem = ({ title, text }) => {
     switch (title2) {
       case 'Phone:':
         url = 'tel:+380954682172';
-        console.log(url);
         return url;
 
       case 'Email:':
         url = 'mailto:owmaslak@google.com';
-        console.log(url);
         return url;
 
       case 'Address:':
         url = 'https://goo.gl/maps/ynqhWXBtSKAtu43p6';
-        console.log(url);
         return url;
 
       default:

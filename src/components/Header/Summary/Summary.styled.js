@@ -3,14 +3,17 @@ import styled from 'styled-components';
 // import { GrClose } from 'react-icons/gr';
 
 export const SummaryStyled = styled.div`
-  width: 100%;
-  height: 257px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  background-color: rgba(255, 255, 255, 0.85);
-  text-align: center;
-  padding: 16px 48px;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    height: 257px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    padding: 16px 48px;
+  }
+  padding: 32px;
 `;
 
 export const TitleWrapper = styled.div`

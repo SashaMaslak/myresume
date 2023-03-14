@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const TitleWrapper = styled.div`
   display: flex;
+  /* @media screen and (min-width: 768px) {
+    display: block;
+  } */
 `;
 
 export const TitleExpStyled = styled.h4`

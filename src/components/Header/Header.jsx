@@ -1,28 +1,37 @@
 import { useState } from 'react';
-import { HeaderStyled, About, Hero } from './Header.styled';
-import { ButtonStyled } from './Header.styled';
+import { HeaderStyled, ButtonStyled, About, Hero } from './Header.styled';
 import Avatar from './Avatar/Avatar';
 import photo from '../../images/photo.jpg';
 import Summary from './Summary/Summary';
 import Introduce from './Introduce/Introduce';
 import Contacts from './Contacts/Contacts';
-// import OtherInfo from './OtherInfo/OtherInfo';
+import OtherInfo from './OtherInfo/OtherInfo';
 import contacts from '../../contacts.json';
 import { GrClose } from 'react-icons/gr';
 import { RxHamburgerMenu } from 'react-icons/rx';
 
 const Header = () => {
-  const [isOpenModal, setisOpenModal] = useState(false);
+  const [isOpenModal, setIsOpenModal] = useState(false);
+
+  const isScreenTablet = window.matchMedia('(min-width: 768px)').matches;
+
   const toggleModal = () => {
-    setisOpenModal(!isOpenModal);
+    setIsOpenModal(!isOpenModal);
   };
+
   return (
     <HeaderStyled>
       <About>
-        <ButtonStyled type="button" onClick={toggleModal}>
-          {isOpenModal && <RxHamburgerMenu size={24} />}
-          {!isOpenModal && <GrClose size={24} />}
-        </ButtonStyled>
+        {!isScreenTablet && (
+          <ButtonStyled type="button" onClick={toggleModal}>
+            {isOpenModal ? (
+              <RxHamburgerMenu size={24} />
+            ) : (
+              <GrClose size={24} />
+            )}
+          </ButtonStyled>
+        )}
+
         <Avatar src={photo} alt="photo" />
 
         {!isOpenModal && (
@@ -38,7 +47,7 @@ const Header = () => {
           profession="JUNIOR FROND-END DEVELOPER"
         />
         <Contacts contacts={contacts} />
-        {/* <OtherInfo /> */}
+        {isScreenTablet && <OtherInfo />}
       </Hero>
     </HeaderStyled>
   );

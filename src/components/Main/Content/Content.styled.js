@@ -5,6 +5,9 @@ export const ContentStyled = styled.div`
   background-color: rgba(244, 214, 68, 0.82);
   text-align: center;
   width: 100%;
+  @media screen and (min-width: 768px) {
+    background-color: rgba(255, 255, 255, 0.82);
+  }
 `;
 
 export const TitleExperiences = styled.h3`

@@ -1,5 +1,5 @@
 import {
-  SideBarStyled,
+  SidebarStyled,
   TitleSkills,
   TitleItemSkills,
   ListSkills,
@@ -41,7 +41,7 @@ const Sidebar = ({ skills, titleSidebar }) => {
   };
 
   return (
-    <SideBarStyled>
+    <SidebarStyled>
       <TitleSkills>{titleSidebar}</TitleSkills>
       {skills.map(({ title, skillsList }, idx) => (
         <BlockItemSkills key={idx}>
@@ -53,7 +53,7 @@ const Sidebar = ({ skills, titleSidebar }) => {
           </ListSkills>
         </BlockItemSkills>
       ))}
-    </SideBarStyled>
+    </SidebarStyled>
   );
 };
 

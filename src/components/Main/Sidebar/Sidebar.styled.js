@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
-export const SideBarStyled = styled.div`
+export const SidebarStyled = styled.div`
   text-align: center;
   width: 100%;
   background-color: #292d2d;
   padding: 16px;
   color: #fff;
+  @media screen and (min-width: 768px) {
+    /* width: 320px; */
+  }
 `;
 
 export const TitleSkills = styled.h3`
