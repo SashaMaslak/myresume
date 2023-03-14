@@ -3,7 +3,7 @@ import styled from 'styled-components';
 // import { GrClose } from 'react-icons/gr';
 
 export const SummaryStyled = styled.div`
-  min-width: 320px;
+  width: 100%;
   height: 257px;
   position: absolute;
   left: 50%;

@@ -5,9 +5,9 @@ import Avatar from './Avatar/Avatar';
 import photo from '../../images/photo.jpg';
 import Summary from './Summary/Summary';
 import Introduce from './Introduce/Introduce';
-// import Contacts from './Contacts/Contacts';
+import Contacts from './Contacts/Contacts';
 // import OtherInfo from './OtherInfo/OtherInfo';
-// import contacts from '../../contacts.json';
+import contacts from '../../contacts.json';
 import { GrClose } from 'react-icons/gr';
 import { RxHamburgerMenu } from 'react-icons/rx';
 
@@ -37,8 +37,8 @@ const Header = () => {
           name="OLEKSANDR MASLAK"
           profession="JUNIOR FROND-END DEVELOPER"
         />
-        {/* <Contacts contacts={contacts} />
-        <OtherInfo /> */}
+        <Contacts contacts={contacts} />
+        {/* <OtherInfo /> */}
       </Hero>
     </HeaderStyled>
   );

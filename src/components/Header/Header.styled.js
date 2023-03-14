@@ -1,26 +1,28 @@
 import styled from 'styled-components';
 
 export const HeaderStyled = styled.div`
+  margin: auto;
   position: relative;
+  width: 320px;
 `;
 
 export const About = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
 `;
 
 export const Hero = styled.div`
+  width: 100%;
   background-color: rgba(244, 214, 68, 0.82);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   left: 50%;
   top: 257px;
   transform: translate(-50%);
-  min-width: 320px;
   height: 120px;
-  padding: 16px 20px;
 `;
 
 export const ButtonStyled = styled.button`
