@@ -1,0 +1,18 @@
+[
+  {
+    "title": "TECH SKILLS",
+    "skillsList": ["HTML5 / CSS3 / SASS", "GIT", "JavaScript", "TypeScript", "React / React native", "Redux", "Node.js", "..."]
+  },
+  {
+    "title": "SOFT SKILLS",
+    "skillsList": ["Analytical thinking", "Positive attitude", "Communicative", "Conscientious", "Eager to learn", "Hardworking", "Reliable"]
+  },
+  {
+    "title": "LANGUAGE SKILLS",
+    "skillsList": ["English - Pre-intermediate", "Ukrainian - Native", "Russian - Native"]
+  },
+  {
+    "title": "REFERENCES",
+    "skillsList": ["Linkedin", "Github", "Telegram" ]
+  }
+]
