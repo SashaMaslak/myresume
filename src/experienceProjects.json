@@ -1,11 +1,27 @@
 [
   {
-    "name": "FINAL PROJECT",
+    "name": "FINAL PROJECT FOR COURSE",
     "teamProject": true,
-    "startDate": "SEP 2023",
+    "startDate": null,
     "finishDate": "SEP 2023",
     "url": "https://google.com",
     "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]"]
+  },
+  {
+    "name": "PHONEBOOK",
+    "teamProject": false,
+    "startDate": null,
+    "finishDate": "APR 2023",
+    "url": "https://sashamaslak.github.io/goit-react-hw-08-phonebook/",
+    "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]"]
+  },
+  {
+    "name": "THEMOVIEDB-API",
+    "teamProject": false,
+    "startDate": null,
+    "finishDate": "AUG 2022",
+    "url": "https://sashamaslak.github.io/goit-react-hw-05-movies/",
+    "technologies": ["[HTML5, CSS3, GIT, JS, React, Routes, REST API, AJAX, Webpack]"]
   },
   {
     "name": "FILMOTEKA",
@@ -16,11 +32,27 @@
     "technologies": ["[HTML, SASS, GIT, JS, REST API, AJAX, Parcel]"]
   },
   {
+    "name": "PIXABAY-API",
+    "teamProject": false,
+    "startDate": null,
+    "finishDate": "JUN 2022",
+    "url": "https://sashamaslak.github.io/goit-js-hw-11/",
+    "technologies": ["[HTML, SASS, GIT, JS, Parcel]"]
+  },
+  {
     "name": "ICE-CREAM",
     "teamProject": true,
     "startDate": null,
     "finishDate": "APR 2022",
     "url": "https://arkzaslavskyi.github.io/ice-cream-project-1/",
     "technologies": ["[HTML, SASS, GIT, JS, Parcel]"]
+  },
+  {
+    "name": "WEB-STUDIO",
+    "teamProject": false,
+    "startDate": null,
+    "finishDate": "FEB 2022",
+    "url": "https://sashamaslak.github.io/goit-markup-hw-08/",
+    "technologies": ["[HTML, SASS, GIT]"]
   }
 ]

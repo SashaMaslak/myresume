@@ -17,10 +17,10 @@ const TitleExp = ({ item }) => {
         </TitleLink>
       </TitleExpStyled>
       <IconPerson data-title="team project">
-        {item?.teamProject && teamProject && <RiTeamLine />}
+        {teamProject === true && <RiTeamLine />}
       </IconPerson>
       <IconPerson data-title="personal project">
-        {item?.teamProject && !teamProject && <BsPerson />}
+        {teamProject === false && <BsPerson />}
       </IconPerson>
     </TitleWrapper>
   );
