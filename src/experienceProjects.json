@@ -5,6 +5,7 @@
     "startDate": null,
     "finishDate": "SEP 2023",
     "url": "https://google.com",
+    "git": "https://google.com",
     "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]"]
   },
   {
@@ -13,6 +14,7 @@
     "startDate": null,
     "finishDate": "APR 2023",
     "url": "https://sashamaslak.github.io/goit-react-hw-08-phonebook/",
+    "git": "https://github.com/SashaMaslak/goit-react-hw-08-phonebook/",
     "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]"]
   },
   {
@@ -21,6 +23,7 @@
     "startDate": null,
     "finishDate": "AUG 2022",
     "url": "https://sashamaslak.github.io/goit-react-hw-05-movies/",
+    "git": "https://github.com/SashaMaslak/goit-react-hw-05-movies/",
     "technologies": ["[HTML5, CSS3, GIT, JS, React, Routes, REST API, AJAX, Webpack]"]
   },
   {
@@ -29,6 +32,7 @@
     "startDate": null,
     "finishDate": "JUL 2022",
     "url": "https://denysphv.github.io/project_group_2/",
+    "git": "https://github.com/denysphv/project_group_2/",
     "technologies": ["[HTML, SASS, GIT, JS, REST API, AJAX, Parcel]"]
   },
   {
@@ -37,6 +41,7 @@
     "startDate": null,
     "finishDate": "JUN 2022",
     "url": "https://sashamaslak.github.io/goit-js-hw-11/",
+    "git": "https://github.com/SashaMaslak/goit-js-hw-11/",
     "technologies": ["[HTML, SASS, GIT, JS, Parcel]"]
   },
   {
@@ -45,6 +50,7 @@
     "startDate": null,
     "finishDate": "APR 2022",
     "url": "https://arkzaslavskyi.github.io/ice-cream-project-1/",
+    "git": "https://github.com/arkzaslavskyi/ice-cream-project-1/",
     "technologies": ["[HTML, SASS, GIT, JS, Parcel]"]
   },
   {
@@ -53,6 +59,7 @@
     "startDate": null,
     "finishDate": "FEB 2022",
     "url": "https://sashamaslak.github.io/goit-markup-hw-08/",
+    "git": "https://github.com/SashaMaslak/goit-markup-hw-08",
     "technologies": ["[HTML, SASS, GIT]"]
   }
 ]

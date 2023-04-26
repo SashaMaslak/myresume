@@ -6,6 +6,9 @@ import {
   BlockItemSkills,
   ItemSkills,
   ItemLink,
+  BsLinkedinStyled,
+  BsGithubStyled,
+  BsTelegramStyled,
 } from './Sidebar.styled';
 
 const Sidebar = ({ skills, titleSidebar }) => {
@@ -14,9 +17,10 @@ const Sidebar = ({ skills, titleSidebar }) => {
       case 'Linkedin':
         return (
           <ItemLink
-            href="https://www.linkedin.com/in/oleksandr-maslak-3688ab20a/"
+            href="https://www.linkedin.com/in/oleksandr-maslak/"
             target="_blank"
           >
+            <BsLinkedinStyled size={18} />
             {skillsItem}
           </ItemLink>
         );
@@ -24,6 +28,7 @@ const Sidebar = ({ skills, titleSidebar }) => {
       case 'Github':
         return (
           <ItemLink href="https://github.com/SashaMaslak" target="_blank">
+            <BsGithubStyled size={18} />
             {skillsItem}
           </ItemLink>
         );
@@ -31,6 +36,7 @@ const Sidebar = ({ skills, titleSidebar }) => {
       case 'Telegram':
         return (
           <ItemLink href="https://t.me/OlexandrMaslak" target="_blank">
+            <BsTelegramStyled size={18} />
             {skillsItem}
           </ItemLink>
         );

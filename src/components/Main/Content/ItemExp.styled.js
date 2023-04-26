@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ItemExpStyled = styled.li`
   display: block;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   @media screen and (min-width: 768px) {
     display: grid;
     grid-template-columns: 70px 60px 1fr;

@@ -1,4 +1,23 @@
 import styled from 'styled-components';
+import { BsGithub, BsLinkedin, BsTelegram } from 'react-icons/bs';
+
+export const BsLinkedinStyled = styled(BsLinkedin)`
+  position: absolute;
+  left: -6px;
+  top: 6px;
+`;
+
+export const BsGithubStyled = styled(BsGithub)`
+  position: absolute;
+  left: -6px;
+  top: 6px;
+`;
+
+export const BsTelegramStyled = styled(BsTelegram)`
+  position: absolute;
+  left: -6px;
+  top: 6px;
+`;
 
 export const SidebarStyled = styled.div`
   text-align: center;
@@ -43,8 +62,10 @@ export const BlockItemSkills = styled.li`
 export const ItemSkills = styled.li`
   color: #a6a6a6;
   font-weight: 500;
-  line-height: 140%;
+  line-height: 200%;
   list-style: disc;
+  align-items: center;
+  position: relative;
 `;
 
 export const ItemLink = styled.a`
@@ -52,6 +73,7 @@ export const ItemLink = styled.a`
   font-weight: 500;
   line-height: 140%;
   text-decoration: none;
+  margin-left: 18px;
   &:hover {
     cursor: pointer;
     color: #8c52ff;

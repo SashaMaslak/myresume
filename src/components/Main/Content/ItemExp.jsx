@@ -4,15 +4,15 @@ import TitleExp from './ContentComponents/TitleExp';
 import ListExp from './ContentComponents/ListExp';
 import { ItemExpStyled, InfoColumn } from './ItemExp.styled';
 
-const ItemExp = ({ item }) => {
-  const { startDate, finishDate, technologies } = item;
+const ItemExp = ({ item, isGit }) => {
+  const { startDate, finishDate, technologies, git } = item;
   const isScreenTablet = window.matchMedia('(min-width: 768px)').matches;
   return (
     <ItemExpStyled>
       {isScreenTablet && (
         <DateColumn finishDate={finishDate} startDate={startDate} />
       )}
-      {isScreenTablet && <LineColumn />}
+      {isScreenTablet && <LineColumn isGit={isGit} gitUrl={git} />}
       <InfoColumn>
         {!isScreenTablet && (
           <DateColumn finishDate={finishDate} startDate={startDate} />
