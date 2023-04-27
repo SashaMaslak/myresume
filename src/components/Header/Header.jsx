@@ -40,7 +40,7 @@ const Header = () => {
         {!isOpenModal && (
           <Summary
             title="S U M M A R Y"
-            text="I am a Junior Front-End developer. I focus on HTML5, CSS3, JS, React. English — Pre-Intermediate. Looking for a remote job. Development, practice and work for the result are important for me. I intend to develop innovative technologies and deliver value to people."
+            text="I am a Junior Front-End developer. I focus on HTML5, CSS3, JS, React. English — Pre-Intermediate. Looking for a remote job. Development, practice and work for the result are important for me. My goal is to find a decent job and become an integral part of a team of professionals!"
           />
         )}
       </About>
