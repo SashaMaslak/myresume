@@ -1,6 +1,6 @@
 [
   {
-    "name": "FINAL PROJECT OF THE COURSE (IS PLANNED)",
+    "name": "FINAL PROJECT GOIT (IS PLANNED)",
     "teamProject": true,
     "startDate": null,
     "finishDate": "JUL 2023",
@@ -15,7 +15,7 @@
     "finishDate": "APR 2023",
     "url": "https://sashamaslak.github.io/goit-react-hw-08-phonebook/",
     "git": "https://github.com/SashaMaslak/goit-react-hw-08-phonebook/",
-    "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]"]
+    "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]", "Application for saving a contacts."]
   },
   {
     "name": "THEMOVIEDB-API",
@@ -24,16 +24,16 @@
     "finishDate": "AUG 2022",
     "url": "https://sashamaslak.github.io/goit-react-hw-05-movies/",
     "git": "https://github.com/SashaMaslak/goit-react-hw-05-movies/",
-    "technologies": ["[HTML5, CSS3, GIT, JS, React, Routes, REST API, AJAX, Webpack]"]
+    "technologies": ["[HTML5, CSS3, GIT, JS, React, Routes, REST API, AJAX, Webpack]", "Application for choosing a movie."]
   },
   {
     "name": "FILMOTEKA",
     "teamProject": true,
     "startDate": null,
     "finishDate": "JUL 2022",
-    "url": "https://denysphv.github.io/project_group_2/",
-    "git": "https://github.com/denysphv/project_group_2/",
-    "technologies": ["[HTML, SASS, GIT, JS, REST API, AJAX, Parcel]"]
+    "url": "https://khodetsky.github.io/team-project-js-Filmoteka/",
+    "git": "https://github.com/khodetsky/team-project-js-Filmoteka",
+    "technologies": ["[HTML, SASS, GIT, JS, REST API, AJAX, Parcel]", "Application for choosing a movie.", "I was working on spinner, api, theme"]
   },
   {
     "name": "PIXABAY-API",
@@ -42,7 +42,7 @@
     "finishDate": "JUN 2022",
     "url": "https://sashamaslak.github.io/goit-js-hw-11/",
     "git": "https://github.com/SashaMaslak/goit-js-hw-11/",
-    "technologies": ["[HTML, SASS, GIT, JS, Parcel]"]
+    "technologies": ["[HTML, SASS, GIT, JS, Parcel]", "Application for searching a picture."]
   },
   {
     "name": "ICE-CREAM",
@@ -51,7 +51,7 @@
     "finishDate": "APR 2022",
     "url": "https://arkzaslavskyi.github.io/ice-cream-project-1/",
     "git": "https://github.com/arkzaslavskyi/ice-cream-project-1/",
-    "technologies": ["[HTML, SASS, GIT, JS, Parcel]"]
+    "technologies": ["[HTML, SASS, GIT, JS, Parcel]", "A website with a responsive layout", "I was working on all modal windows"]
   },
   {
     "name": "WEB-STUDIO",
@@ -60,6 +60,6 @@
     "finishDate": "FEB 2022",
     "url": "https://sashamaslak.github.io/goit-markup-hw-08/",
     "git": "https://github.com/SashaMaslak/goit-markup-hw-08",
-    "technologies": ["[HTML, SASS, GIT]"]
+    "technologies": ["[HTML, SASS, GIT]", "A website with a responsive layout"]
   }
 ]

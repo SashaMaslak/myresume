@@ -1,5 +1,18 @@
 import styled from 'styled-components';
-import { BsGithub, BsLinkedin, BsTelegram } from 'react-icons/bs';
+import {
+  BsGithub,
+  BsLinkedin,
+  BsTelegram,
+  BsEnvelopeAtFill,
+  BsFillTelephoneInboundFill,
+} from 'react-icons/bs';
+import { HiLocationMarker } from 'react-icons/hi';
+
+export const BsTelegramStyled = styled(BsTelegram)`
+  position: absolute;
+  left: -6px;
+  top: 6px;
+`;
 
 export const BsLinkedinStyled = styled(BsLinkedin)`
   position: absolute;
@@ -13,7 +26,21 @@ export const BsGithubStyled = styled(BsGithub)`
   top: 6px;
 `;
 
-export const BsTelegramStyled = styled(BsTelegram)`
+export const BsEnvelopeAtStyled = styled(BsEnvelopeAtFill)`
+  position: absolute;
+  left: -6px;
+  top: 6px;
+`;
+
+export const HiLocationMarkerStyled = styled(HiLocationMarker)`
+  position: absolute;
+  left: -6px;
+  top: 6px;
+`;
+
+export const BsFillTelephoneInboundFillStyled = styled(
+  BsFillTelephoneInboundFill
+)`
   position: absolute;
   left: -6px;
   top: 6px;
@@ -53,6 +80,7 @@ export const TitleItemSkills = styled.h4`
 
 export const ListSkills = styled.ul`
   text-align: left;
+  list-style-type: circle;
 `;
 
 export const BlockItemSkills = styled.li`
@@ -63,7 +91,15 @@ export const ItemSkills = styled.li`
   color: #a6a6a6;
   font-weight: 500;
   line-height: 200%;
-  list-style: disc;
+  list-style: circle;
+  align-items: center;
+  position: relative;
+`;
+
+export const ItemContacts = styled.li`
+  color: #a6a6a6;
+  font-weight: 500;
+  line-height: 200%;
   align-items: center;
   position: relative;
 `;
@@ -76,6 +112,6 @@ export const ItemLink = styled.a`
   margin-left: 18px;
   &:hover {
     cursor: pointer;
-    color: #8c52ff;
+    color: #90ee90;
   }
 `;

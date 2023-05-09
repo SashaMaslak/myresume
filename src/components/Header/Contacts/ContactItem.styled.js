@@ -20,11 +20,11 @@ export const LinkItem = styled.div`
 
   &:hover {
     cursor: pointer;
-    color: #8c52ff;
+    color: #90ee90;
     font-weight: bold;
 
     svg {
-      color: #8c52ff;
+      color: #90ee99;
     }
   }
 `;
@@ -65,7 +65,7 @@ export const IconWrapper = styled.span`
   width: 36px;
   height: 36px;
   svg {
-    color: #f4d644;
+    color: #a6a6a6;
     display: block;
     padding: 4px;
   }
@@ -101,7 +101,7 @@ export const ContactWrapper = styled.a`
   @media screen and (max-width: 767px) {
     display: none;
     position: fixed;
-    color: #8c52ff;
+    color: #90ee90;
     font-weight: 500;
     line-height: 140%;
     text-decoration: none;
@@ -117,6 +117,6 @@ export const ContactWrapper = styled.a`
   text-decoration: none;
   &:hover {
     cursor: pointer;
-    color: #8c52ff;
+    color: #90ee90;
   }
 `;

@@ -7,7 +7,7 @@ export const LineColumnStyled = styled.section`
   position: relative;
 `;
 
-export const LineStyled = styled.span`
+export const CircleStyled = styled.span`
   display: block;
   width: 28px;
   height: 28px;
@@ -15,16 +15,16 @@ export const LineStyled = styled.span`
   border-radius: 50%;
   border: #595a5a solid 3px;
   position: absolute;
-  top: 25%;
+  top: 14px;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
 `;
 
-export const CircleStyled = styled.span`
+export const LineStyled = styled.span`
   display: block;
   width: 2px;
-  height: 95%;
+  height: 82%;
   background-color: #595a5a;
   position: relative;
   z-index: 1;
@@ -43,6 +43,6 @@ export const Link = styled.a`
   color: inherit;
   &:hover {
     cursor: pointer;
-    color: #8c52ff;
+    color: #90ee90;
   }
 `;

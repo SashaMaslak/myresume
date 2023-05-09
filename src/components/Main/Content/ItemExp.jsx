@@ -17,7 +17,6 @@ const ItemExp = ({ item, isGit }) => {
         {!isScreenTablet && (
           <DateColumn finishDate={finishDate} startDate={startDate} />
         )}
-
         <TitleExp item={item} />
         {isScreenTablet && <ListExp technologies={technologies} />}
       </InfoColumn>

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FiGithub } from 'react-icons/fi';
 
 export const TitleWrapper = styled.div`
   display: flex;
@@ -8,16 +9,32 @@ export const TitleExpStyled = styled.h4`
   margin-right: 16px;
   font-size: 16px;
   text-align: left;
+  width: 100%;
 `;
 
 export const TitleLink = styled.a`
   color: #595a5a;
   font-weight: bold;
   line-height: 140%;
-  text-decoration: none;
+  //text-decoration: none;
   &:hover {
     cursor: pointer;
-    color: #8c52ff;
+    color: #90ee90;
+  }
+`;
+
+export const GitLink = styled.a`
+  color: #595a5a;
+  font-weight: bold;
+  line-height: 140%;
+  margin-left: 16px;
+  font-style: italic;
+  font-size: 12px;
+  display: flex;
+  align-items: flex-start;
+  &:hover {
+    cursor: pointer;
+    color: #90ee90;
   }
 `;
 
@@ -64,4 +81,8 @@ export const IconPerson = styled.span`
     visibility: visible;
     opacity: 1;
   }
+`;
+
+export const FiGithubStyled = styled(FiGithub)`
+  margin: 2px 8px 0 8px;
 `;

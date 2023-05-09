@@ -5,14 +5,10 @@
   },
   {
     "title": "SOFT SKILLS:",
-    "skillsList": ["Analytical thinking", "Positive attitude", "Communicative", "Conscientious", "Eager to learn", "Hardworking", "Reliable"]
+    "skillsList": ["Analytical thinking", "Positive attitude", "Communicative", "Conscientious", "Eager to learn"]
   },
   {
     "title": "LANGUAGE SKILLS:",
     "skillsList": ["English - Pre-intermediate", "Ukrainian - Native"]
-  },
-  {
-    "title": "REFERENCES:",
-    "skillsList": ["Linkedin", "Github", "Telegram" ]
   }
 ]

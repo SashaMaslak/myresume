@@ -1,4 +1,5 @@
 import { BsGithub } from 'react-icons/bs';
+
 import {
   LineStyled,
   CircleStyled,
@@ -10,7 +11,7 @@ import {
 const LineColumn = ({ isGit, gitUrl }) => {
   return (
     <LineColumnStyled>
-      <LineStyled>
+      <CircleStyled>
         {isGit && (
           <Link href={gitUrl} target="_blank">
             <IconGitStyled>
@@ -18,8 +19,8 @@ const LineColumn = ({ isGit, gitUrl }) => {
             </IconGitStyled>
           </Link>
         )}
-      </LineStyled>
-      <CircleStyled />
+      </CircleStyled>
+      <LineStyled />
     </LineColumnStyled>
   );
 };

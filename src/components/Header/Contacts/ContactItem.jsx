@@ -1,5 +1,7 @@
 import { BsTelephoneInbound, BsEnvelope } from 'react-icons/bs';
 import { SlLocationPin } from 'react-icons/sl';
+import { TbBrandTelegram } from 'react-icons/tb';
+
 import {
   StyledItem,
   IconWrapper,
@@ -14,8 +16,8 @@ const ContactItem = ({ title, text }) => {
     let url = '';
 
     switch (title2) {
-      case 'Phone:':
-        url = 'tel:+380954682172';
+      case 'Telegram:':
+        url = 'https://t.me/OlexandrMaslak';
         return url;
 
       case 'Email:':
@@ -36,7 +38,7 @@ const ContactItem = ({ title, text }) => {
       <LinkItem>
         <StyledItem>
           <IconWrapper>
-            {title === 'Phone:' && <BsTelephoneInbound size={28} />}
+            {title === 'Telegram:' && <TbBrandTelegram size={28} />}
             {title === 'Email:' && <BsEnvelope size={28} />}
             {title === 'Address:' && <SlLocationPin size={28} />}
           </IconWrapper>

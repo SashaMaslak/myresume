@@ -5,11 +5,17 @@ import Content from './Content/Content';
 import experienceProjects from '../../experienceProjects.json';
 import experienceWork from '../../experienceWork.json';
 import experienceEduction from '../../experienceEduction.json';
+import contacts from '../../contactsSidebar.json';
 
 const Main = () => {
   return (
     <MainStyled>
-      <Sidebar skills={skills} titleSidebar="MY SKILLS" />
+      <Sidebar
+        skills={skills}
+        titleSidebarSkills="MY SKILLS"
+        contacts={contacts}
+        titleSidebarContacts="MY CONTACTS"
+      />
       <Content
         titleExProjects="PROJECT EXPERIENCE"
         experienceProjects={experienceProjects}
