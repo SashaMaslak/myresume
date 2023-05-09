@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-// import { RxHamburgerMenu } from 'react-icons/rx';
-// import { GrClose } from 'react-icons/gr';
 
 export const SummaryStyled = styled.div`
   @media screen and (max-width: 767px) {

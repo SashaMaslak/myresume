@@ -1,5 +1,3 @@
-// import { RxHamburgerMenu } from 'react-icons/rx';
-
 import {
   SummaryStyled,
   TitleWrapper,

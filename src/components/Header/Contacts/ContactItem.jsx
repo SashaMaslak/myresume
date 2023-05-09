@@ -1,4 +1,4 @@
-import { BsTelephoneInbound, BsEnvelope } from 'react-icons/bs';
+import { BsEnvelope } from 'react-icons/bs';
 import { SlLocationPin } from 'react-icons/sl';
 import { TbBrandTelegram } from 'react-icons/tb';
 
