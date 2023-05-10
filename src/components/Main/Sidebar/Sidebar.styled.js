@@ -108,7 +108,7 @@ export const ItemLink = styled.a`
   color: #a6a6a6;
   font-weight: 500;
   line-height: 140%;
-  text-decoration: none;
+  //text-decoration: none;
   margin-left: 18px;
   &:hover {
     cursor: pointer;
