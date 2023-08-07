@@ -1,30 +1,38 @@
 [
   {
-    "name": "FINAL PROJECT GOIT (IS PLANNED)",
+    "name": "YOUR PET",
     "teamProject": true,
     "startDate": null,
     "finishDate": "JUL 2023",
-    "url": "https://google.com",
-    "git": "https://google.com",
-    "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]"]
+    "url": "https://tanital.github.io/team-project-2/",
+    "git": "https://github.com/TanitaL/team-project-2",
+    "technologies": [
+      "[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack, Node.js, MongoDB, Express, Swagger]"
+    ]
   },
   {
     "name": "PHONEBOOK",
     "teamProject": false,
     "startDate": null,
     "finishDate": "APR 2023",
-    "url": "https://sashamaslak.github.io/goit-react-hw-08-phonebook/",
-    "git": "https://github.com/SashaMaslak/goit-react-hw-08-phonebook/",
-    "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]", "Application for saving a contacts."]
+    "url": "https://github.com/SashaMaslak/Phonebook-react",
+    "git": "https://sashamaslak.github.io/Phonebook-react/",
+    "technologies": [
+      "[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]",
+      "Application for saving a contacts."
+    ]
   },
   {
     "name": "THEMOVIEDB-API",
     "teamProject": false,
     "startDate": null,
     "finishDate": "AUG 2022",
-    "url": "https://sashamaslak.github.io/goit-react-hw-05-movies/",
-    "git": "https://github.com/SashaMaslak/goit-react-hw-05-movies/",
-    "technologies": ["[HTML5, CSS3, GIT, JS, React, Routes, REST API, AJAX, Webpack]", "Application for choosing a movie."]
+    "url": "https://github.com/SashaMaslak/Movies-react",
+    "git": "https://sashamaslak.github.io/Movies-react/",
+    "technologies": [
+      "[HTML5, CSS3, GIT, JS, React, Routes, REST API, AJAX, Webpack]",
+      "Application for choosing a movie."
+    ]
   },
   {
     "name": "FILMOTEKA",
@@ -33,16 +41,23 @@
     "finishDate": "JUL 2022",
     "url": "https://khodetsky.github.io/team-project-js-Filmoteka/",
     "git": "https://github.com/khodetsky/team-project-js-Filmoteka",
-    "technologies": ["[HTML, SASS, GIT, JS, REST API, AJAX, Parcel]", "Application for choosing a movie.", "I was working on spinner, api, theme"]
+    "technologies": [
+      "[HTML, SASS, GIT, JS, REST API, AJAX, Parcel]",
+      "Application for choosing a movie.",
+      "I was working on spinner, api, theme"
+    ]
   },
   {
     "name": "PIXABAY-API",
     "teamProject": false,
     "startDate": null,
     "finishDate": "JUN 2022",
-    "url": "https://sashamaslak.github.io/goit-js-hw-11/",
-    "git": "https://github.com/SashaMaslak/goit-js-hw-11/",
-    "technologies": ["[HTML, SASS, GIT, JS, Parcel]", "Application for searching a picture."]
+    "url": "https://github.com/SashaMaslak/images-js",
+    "git": "https://sashamaslak.github.io/images-js/",
+    "technologies": [
+      "[HTML, SASS, GIT, JS, Parcel]",
+      "Application for searching a picture."
+    ]
   },
   {
     "name": "ICE-CREAM",
@@ -51,15 +66,19 @@
     "finishDate": "APR 2022",
     "url": "https://arkzaslavskyi.github.io/ice-cream-project-1/",
     "git": "https://github.com/arkzaslavskyi/ice-cream-project-1/",
-    "technologies": ["[HTML, SASS, GIT, JS, Parcel]", "A website with a responsive layout", "I was working on all modal windows"]
+    "technologies": [
+      "[HTML, SASS, GIT, JS, Parcel]",
+      "A website with a responsive layout",
+      "I was working on all modal windows"
+    ]
   },
   {
     "name": "WEB-STUDIO",
     "teamProject": false,
     "startDate": null,
     "finishDate": "FEB 2022",
-    "url": "https://sashamaslak.github.io/goit-markup-hw-08/",
-    "git": "https://github.com/SashaMaslak/goit-markup-hw-08",
+    "url": "https://github.com/SashaMaslak/Webstudio-html-css",
+    "git": "https://sashamaslak.github.io/Webstudio-html-css/",
     "technologies": ["[HTML, SASS, GIT]", "A website with a responsive layout"]
   }
 ]
