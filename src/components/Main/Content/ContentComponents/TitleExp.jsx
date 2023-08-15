@@ -5,12 +5,14 @@ import {
   GitLink,
   IconPerson,
   FiGithubStyled,
+  AiFillGithubStyled,
 } from './TitleExp.styled';
 import { RiTeamLine } from 'react-icons/ri';
 import { BsPerson } from 'react-icons/bs';
 
 const TitleExp = ({ item }) => {
   const { name, teamProject, url, git } = item;
+  const isScreenTablet = window.matchMedia('(min-width: 768px)').matches;
   return (
     <TitleWrapper>
       <TitleExpStyled>
@@ -18,18 +20,30 @@ const TitleExp = ({ item }) => {
           {name}
         </TitleLink>
       </TitleExpStyled>
-      <IconPerson data-title="team project">
-        {teamProject === true && <RiTeamLine />}
-      </IconPerson>
-      <IconPerson data-title="personal project">
-        {teamProject === false && <BsPerson />}
-      </IconPerson>
-      {git && (
-        <GitLink href={git} target="_blank">
-          <FiGithubStyled />
-          GITPAGE
-        </GitLink>
-      )}
+      <div style={{ display: 'flex' }}>
+        <IconPerson data-title="team project">
+          {teamProject === true && <RiTeamLine />}
+        </IconPerson>
+        <IconPerson data-title="personal project">
+          {teamProject === false && <BsPerson />}
+        </IconPerson>
+
+        {git && (
+          <>
+            {isScreenTablet ? (
+              <GitLink href={git} target="_blank">
+                <FiGithubStyled />
+                GITPAGE
+              </GitLink>
+            ) : (
+              <GitLink href={git} target="_blank">
+                <AiFillGithubStyled size={16} />
+                github
+              </GitLink>
+            )}
+          </>
+        )}
+      </div>
     </TitleWrapper>
   );
 };

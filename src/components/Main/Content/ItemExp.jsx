@@ -8,20 +8,26 @@ const ItemExp = ({ item, isGit }) => {
   const { startDate, finishDate, technologies, git } = item;
   const isScreenTablet = window.matchMedia('(min-width: 768px)').matches;
   return (
-    <ItemExpStyled>
-      {isScreenTablet && (
-        <DateColumn finishDate={finishDate} startDate={startDate} />
-      )}
-      {isScreenTablet && <LineColumn isGit={isGit} gitUrl={git} />}
-      <InfoColumn>
-        {!isScreenTablet && (
+    <>
+      {isScreenTablet ? (
+        <ItemExpStyled>
           <DateColumn finishDate={finishDate} startDate={startDate} />
-        )}
-        <TitleExp item={item} />
-        {isScreenTablet && <ListExp technologies={technologies} />}
-      </InfoColumn>
-      {!isScreenTablet && <ListExp technologies={technologies} />}
-    </ItemExpStyled>
+          <LineColumn isGit={isGit} gitUrl={git} />
+          <InfoColumn>
+            <TitleExp item={item} />
+            <ListExp technologies={technologies} />
+          </InfoColumn>
+        </ItemExpStyled>
+      ) : (
+        <>
+          <ItemExpStyled>
+            <DateColumn finishDate={finishDate} startDate={startDate} />
+            <TitleExp item={item} />
+          </ItemExpStyled>
+          <ListExp technologies={technologies} />
+        </>
+      )}
+    </>
   );
 };
 

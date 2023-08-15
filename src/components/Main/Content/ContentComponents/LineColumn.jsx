@@ -9,13 +9,15 @@ import {
 } from './LineColumn.styled';
 
 const LineColumn = ({ isGit, gitUrl }) => {
+  const isScreenDesctop = window.matchMedia('(min-width: 1024px)').matches;
+  let size = isScreenDesctop ? '25px' : '20px';
   return (
     <LineColumnStyled>
       <CircleStyled>
         {isGit && (
           <Link href={gitUrl} target="_blank">
             <IconGitStyled>
-              <BsGithub size="25px" />
+              <BsGithub size={size} />
             </IconGitStyled>
           </Link>
         )}

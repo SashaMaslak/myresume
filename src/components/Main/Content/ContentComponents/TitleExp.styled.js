@@ -1,15 +1,23 @@
 import styled from 'styled-components';
 import { FiGithub } from 'react-icons/fi';
+import { AiFillGithub } from 'react-icons/ai';
 
 export const TitleWrapper = styled.div`
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+  }
 `;
 
 export const TitleExpStyled = styled.h4`
-  margin-right: 16px;
-  font-size: 16px;
+  font-size: 12px;
   text-align: left;
   width: 100%;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    margin-right: 16px;
+  }
 `;
 
 export const TitleLink = styled.a`
@@ -27,7 +35,7 @@ export const GitLink = styled.a`
   color: #595a5a;
   font-weight: bold;
   line-height: 140%;
-  margin-left: 16px;
+  margin-left: 8px;
   font-style: italic;
   font-size: 12px;
   display: flex;
@@ -35,6 +43,9 @@ export const GitLink = styled.a`
   &:hover {
     cursor: pointer;
     color: #90ee90;
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: 16px;
   }
 `;
 
@@ -85,4 +96,8 @@ export const IconPerson = styled.span`
 
 export const FiGithubStyled = styled(FiGithub)`
   margin: 2px 8px 0 8px;
+`;
+
+export const AiFillGithubStyled = styled(AiFillGithub)`
+  margin: 0px 8px 0 8px;
 `;
