@@ -15,8 +15,8 @@
     "teamProject": false,
     "startDate": null,
     "finishDate": "APR 2023",
-    "url": "https://github.com/SashaMaslak/Phonebook-react",
-    "git": "https://sashamaslak.github.io/Phonebook-react/",
+    "url": "https://sashamaslak.github.io/Phonebook-react/",
+    "git": "https://github.com/SashaMaslak/Phonebook-react",
     "technologies": [
       "[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]",
       "Application for saving a contacts."
@@ -27,8 +27,8 @@
     "teamProject": false,
     "startDate": null,
     "finishDate": "AUG 2022",
-    "url": "https://github.com/SashaMaslak/Movies-react",
-    "git": "https://sashamaslak.github.io/Movies-react/",
+    "url": "https://sashamaslak.github.io/Movies-react/",
+    "git": "https://github.com/SashaMaslak/Movies-react",
     "technologies": [
       "[HTML5, CSS3, GIT, JS, React, Routes, REST API, AJAX, Webpack]",
       "Application for choosing a movie."
@@ -52,8 +52,8 @@
     "teamProject": false,
     "startDate": null,
     "finishDate": "JUN 2022",
-    "url": "https://github.com/SashaMaslak/images-js",
-    "git": "https://sashamaslak.github.io/images-js/",
+    "url": "https://sashamaslak.github.io/images-js/",
+    "git": "https://github.com/SashaMaslak/images-js",
     "technologies": [
       "[HTML, SASS, GIT, JS, Parcel]",
       "Application for searching a picture."
@@ -77,8 +77,8 @@
     "teamProject": false,
     "startDate": null,
     "finishDate": "FEB 2022",
-    "url": "https://github.com/SashaMaslak/Webstudio-html-css",
-    "git": "https://sashamaslak.github.io/Webstudio-html-css/",
+    "url": "https://sashamaslak.github.io/Webstudio-html-css/",
+    "git": "https://github.com/SashaMaslak/Webstudio-html-css",
     "technologies": ["[HTML, SASS, GIT]", "A website with a responsive layout"]
   }
 ]
