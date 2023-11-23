@@ -12,7 +12,7 @@ import {
   BsTelegramStyled,
   BsEnvelopeAtStyled,
   HiLocationMarkerStyled,
-  BsFillTelephoneInboundFillStyled,
+  BsFillPhoneVibrateFillStyled,
 } from './Sidebar.styled';
 
 const Sidebar = ({
@@ -58,10 +58,10 @@ const Sidebar = ({
             {title}
           </ItemLink>
         );
-      case '+38954682172':
+      case '+380954682172':
         return (
           <ItemLink href={link} target="_blank">
-            <BsFillTelephoneInboundFillStyled size={18} />
+            <BsFillPhoneVibrateFillStyled size={18} />
             {title}
           </ItemLink>
         );

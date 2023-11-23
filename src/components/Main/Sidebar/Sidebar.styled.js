@@ -4,7 +4,7 @@ import {
   BsLinkedin,
   BsTelegram,
   BsEnvelopeAtFill,
-  BsFillTelephoneInboundFill,
+  BsFillPhoneVibrateFill,
 } from 'react-icons/bs';
 import { HiLocationMarker } from 'react-icons/hi';
 
@@ -38,9 +38,7 @@ export const HiLocationMarkerStyled = styled(HiLocationMarker)`
   top: 6px;
 `;
 
-export const BsFillTelephoneInboundFillStyled = styled(
-  BsFillTelephoneInboundFill
-)`
+export const BsFillPhoneVibrateFillStyled = styled(BsFillPhoneVibrateFill)`
   position: absolute;
   left: -6px;
   top: 6px;
