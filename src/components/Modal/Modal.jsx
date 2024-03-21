@@ -1,31 +1,33 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { ModalContext } from './ModalProvider';
 
-function Modal() {
-  const [isOpen, setIsOpen] = useState(false);
+import { ModalStyled, ModalContent, ModalClose } from './Modal.styled';
 
-  const openModal = () => {
-    setIsOpen(true);
-  };
+// Компонент модального вікна
+export default function Modal() {
+  const { isOpen, closeModal } = useContext(ModalContext);
 
-  const closeModal = () => {
-    setIsOpen(false);
-  };
+  if (!isOpen) return null;
 
   return (
-    <div>
-      <button onClick={openModal}>Відкрити модальне вікно</button>
-      {isOpen && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={closeModal}>
-              &times;
-            </span>
-            <p>Це модальне вікно!</p>
-          </div>
-        </div>
-      )}
-    </div>
+    <ModalStyled>
+      <ModalContent>
+        <ModalClose onClick={closeModal}>Close &times;</ModalClose>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quos
+          voluptatem est pariatur nostrum explicabo aliquid sint sed nisi
+          voluptatibus nulla magnam asperiores, accusamus voluptates deleniti
+          porro vel praesentium placeat sunt, vero perspiciatis autem molestias
+          earum architecto? Necessitatibus harum rem doloribus pariatur
+          perferendis! Sunt porro exercitationem autem dicta earum neque
+          perferendis veritatis, deleniti illum itaque accusamus nulla facilis
+          amet voluptas consequuntur, qui minima maiores reprehenderit
+          voluptatem? Quos vitae officiis accusantium magni aliquid odio
+          voluptate similique sed nulla quidem rerum, distinctio aliquam ea?
+          Inventore voluptas beatae et eligendi debitis quod ad atque? Omnis
+          eligendi aliquam necessitatibus praesentium incidunt porro ratione ut.
+        </p>
+      </ModalContent>
+    </ModalStyled>
   );
 }
-
-export default Modal;

@@ -21,6 +21,6 @@ export const Link = styled.a`
   color: inherit;
   &:hover {
     cursor: pointer;
-    color: #90ee90;
+    color: var(--accent);
   }
 `;

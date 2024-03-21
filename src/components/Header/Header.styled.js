@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-export const MediaScreen = () => {};
-
 export const HeaderStyled = styled.div`
   margin: auto;
   position: relative;
@@ -21,8 +19,7 @@ export const About = styled.div`
 export const Hero = styled.div`
   @media screen and (max-width: 767px) {
     width: 100%;
-    //background-color: rgba(244, 214, 68, 0.82);
-    background-color: rgba(144, 238, 144, 0.82);
+    background-color: var(--accent-bg);
     display: flex;
     align-items: center;
     position: absolute;
@@ -31,8 +28,7 @@ export const Hero = styled.div`
     transform: translate(-50%);
     height: 120px;
   }
-  //background-color: rgba(244, 214, 68, 0.82);
-  background-color: rgba(144, 238, 144, 0.82);
+  background-color: var(--accent-bg);
   display: grid;
   grid-template-columns: auto auto minmax(18px, 1024px);
   justify-content: center;

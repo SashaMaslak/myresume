@@ -29,7 +29,7 @@ export const TitleSummary = styled.h2`
 export const LineSummary = styled.div`
   width: 48px;
   height: 2px;
-  background-color: #595a5a;
+  background-color: var(--text-title);
 `;
 
 export const TextSummary = styled.div`

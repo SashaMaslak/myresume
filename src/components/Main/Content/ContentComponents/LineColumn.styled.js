@@ -19,7 +19,7 @@ export const CircleStyled = styled.span`
     height: 24px;
     background-color: #fff;
     border-radius: 50%;
-    border: #595a5a solid 3px;
+    border: var(--text-title) solid 3px;
     position: absolute;
     top: 14px;
     left: 50%;
@@ -36,7 +36,7 @@ export const LineStyled = styled.span`
   display: block;
   width: 2px;
   height: 82%;
-  background-color: #595a5a;
+  background-color: var(--text-title);
   position: relative;
   z-index: 1;
 `;

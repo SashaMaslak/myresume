@@ -20,11 +20,11 @@ export const LinkItem = styled.div`
 
   &:hover {
     cursor: pointer;
-    color: #90ee90;
+    color: var(--accent);
     font-weight: bold;
 
     svg {
-      color: #90ee99;
+      color: var(--accent);
     }
   }
 `;
@@ -42,7 +42,7 @@ export const IconWrapper = styled.span`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #292d2d;
+    background: var(--bg-sidebar);
     margin: 2px 2px 2px 2px;
     border-radius: 4px;
     padding: 0px;
@@ -58,14 +58,14 @@ export const IconWrapper = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #292d2d;
+  background: var(--bg-sidebar);
   margin: 2px 8px 2px 2px;
   border-radius: 4px;
   padding: 0px;
   width: 36px;
   height: 36px;
   svg {
-    color: #a6a6a6;
+    color: var(--text-sidebar);
     display: block;
     padding: 4px;
   }
@@ -75,12 +75,12 @@ export const ContactTitleText = styled.p`
   @media screen and (max-width: 767px) {
     visibility: hidden;
     opacity: 0;
-    color: #292d2d;
+    color: var(--bg-sidebar);
     font-size: 14px;
     font-weight: bold;
     line-height: 120%;
   }
-  color: #292d2d;
+  color: var(--bg-sidebar);
   font-size: 16px;
   font-weight: bold;
   line-height: 120%;
@@ -101,7 +101,7 @@ export const ContactWrapper = styled.a`
   @media screen and (max-width: 767px) {
     display: none;
     position: fixed;
-    color: #90ee90;
+    color: var(--accent);
     font-weight: 500;
     line-height: 140%;
     text-decoration: none;
@@ -111,12 +111,12 @@ export const ContactWrapper = styled.a`
     padding: 8px;
     border-radius: 6px;
   }
-  color: #595a5a;
+  color: var(--text-title);
   font-weight: 500;
   line-height: 140%;
   text-decoration: none;
   &:hover {
     cursor: pointer;
-    color: #90ee90;
+    color: var(--accent);
   }
 `;

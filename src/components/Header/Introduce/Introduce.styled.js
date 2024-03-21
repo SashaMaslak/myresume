@@ -10,14 +10,14 @@ export const IntroduceStyled = styled.div`
 `;
 
 export const StyledTitle = styled.h1`
-  color: #292d2d;
+  color: var(--bg-sidebar);
   font-size: 28px;
   font-weight: bold;
   line-height: 130%;
 `;
 
 export const StyledSubTitle = styled.p`
-  color: #292d2d;
+  color: var(--bg-sidebar);
   font-size: 16px;
   font-weight: bold;
   line-height: 130%;

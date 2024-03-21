@@ -1,27 +1,12 @@
 import React from 'react';
+import { Copyright, CopyrightLink } from './Footer.styled';
 
 const Footer = () => {
   return (
     <div>
-      <a
-        href="URL"
-        style={{
-          textDecoration: 'none',
-        }}
-      >
-        <p
-          style={{
-            minWidth: '100%',
-            backgroundColor: '#292d2d',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            color: '#a6a6a6',
-          }}
-        >
-          SashaMaslak © 2023
-        </p>
-      </a>
+      <CopyrightLink href="https://github.com/SashaMaslak">
+        <Copyright>SashaMaslak © 2023</Copyright>
+      </CopyrightLink>
     </div>
   );
 };

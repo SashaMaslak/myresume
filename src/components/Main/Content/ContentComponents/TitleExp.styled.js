@@ -22,18 +22,18 @@ export const TitleExpStyled = styled.h4`
 `;
 
 export const TitleLink = styled.a`
-  color: #595a5a;
+  color: var(--text-title);
   font-weight: bold;
   line-height: 140%;
   //text-decoration: none;
   &:hover {
     cursor: pointer;
-    color: #90ee90;
+    color: var(--accent);
   }
 `;
 
 export const GitLink = styled.a`
-  color: #595a5a;
+  color: var(--text-title);
   font-weight: bold;
   line-height: 140%;
   margin-left: 8px;
@@ -43,7 +43,7 @@ export const GitLink = styled.a`
   align-items: flex-start;
   &:hover {
     cursor: pointer;
-    color: #90ee90;
+    color: var(--accent);
   }
   @media screen and (min-width: 768px) {
     margin-left: 16px;
@@ -108,7 +108,7 @@ export const GrCertificateStyled = styled(GrCertificate)`
 `;
 
 export const CertBlock = styled.div`
-  color: #595a5a;
+  color: var(--text-title);
   font-weight: bold;
   line-height: 140%;
   margin-left: 8px;
@@ -118,7 +118,7 @@ export const CertBlock = styled.div`
   align-items: flex-start;
   &:hover {
     cursor: pointer;
-    color: #90ee90;
+    color: var(--accent);
   }
   @media screen and (min-width: 768px) {
     margin-left: 16px;

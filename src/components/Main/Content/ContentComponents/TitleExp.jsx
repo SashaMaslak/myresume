@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { ModalContext } from 'components/Modal/ModalProvider';
 import { RiTeamLine } from 'react-icons/ri';
 import { BsPerson } from 'react-icons/bs';
 
@@ -15,19 +16,10 @@ import {
 } from './TitleExp.styled';
 
 const TitleExp = ({ item }) => {
-  const [isOpenModal, setIsOpenModal] = useState(false);
-
-  const openModal = () => {
-    console.log('openModal:', openModal);
-    setIsOpenModal(true);
-  };
-
-  const closeModal = () => {
-    console.log('closeModal:', closeModal);
-    setIsOpenModal(false);
-  };
+  const { openModal } = useContext(ModalContext);
 
   const { name, teamProject, url, git, inProcess } = item;
+
   const isScreenTablet = window.matchMedia('(min-width: 768px)').matches;
   return (
     <TitleWrapper>
@@ -62,7 +54,13 @@ const TitleExp = ({ item }) => {
         {!inProcess && !git && (
           <>
             {isScreenTablet ? (
-              <CertBlock onClick={openModal}>
+              <CertBlock
+                onClick={() => {
+                  console.log('Open MODAL');
+                  console.log(openModal);
+                  openModal();
+                }}
+              >
                 <GrCertificateStyled size={18} />
                 CERTIFICATE
               </CertBlock>
