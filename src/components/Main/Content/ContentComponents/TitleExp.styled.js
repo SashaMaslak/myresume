@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { FiGithub } from 'react-icons/fi';
 import { AiFillGithub } from 'react-icons/ai';
+import { GrCertificate } from 'react-icons/gr';
 
 export const TitleWrapper = styled.div`
   display: flex;
@@ -99,5 +100,9 @@ export const FiGithubStyled = styled(FiGithub)`
 `;
 
 export const AiFillGithubStyled = styled(AiFillGithub)`
+  margin: 0px 8px 0 8px;
+`;
+
+export const GrCertificateStyled = styled(GrCertificate)`
   margin: 0px 8px 0 8px;
 `;

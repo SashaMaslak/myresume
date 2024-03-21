@@ -1,3 +1,6 @@
+import { RiTeamLine } from 'react-icons/ri';
+import { BsPerson } from 'react-icons/bs';
+
 import {
   TitleWrapper,
   TitleExpStyled,
@@ -6,12 +9,11 @@ import {
   IconPerson,
   FiGithubStyled,
   AiFillGithubStyled,
+  GrCertificateStyled,
 } from './TitleExp.styled';
-import { RiTeamLine } from 'react-icons/ri';
-import { BsPerson } from 'react-icons/bs';
 
 const TitleExp = ({ item }) => {
-  const { name, teamProject, url, git } = item;
+  const { name, teamProject, url, git, inProcess } = item;
   const isScreenTablet = window.matchMedia('(min-width: 768px)').matches;
   return (
     <TitleWrapper>
@@ -39,6 +41,21 @@ const TitleExp = ({ item }) => {
               <GitLink href={git} target="_blank">
                 <AiFillGithubStyled size={16} />
                 github
+              </GitLink>
+            )}
+          </>
+        )}
+        {!inProcess && !git && (
+          <>
+            {isScreenTablet ? (
+              <GitLink href={git} target="_blank">
+                <GrCertificateStyled />
+                CERTIFICATE
+              </GitLink>
+            ) : (
+              <GitLink href={git} target="_blank">
+                <GrCertificateStyled size={16} />
+                certificate
               </GitLink>
             )}
           </>
