@@ -106,3 +106,21 @@ export const AiFillGithubStyled = styled(AiFillGithub)`
 export const GrCertificateStyled = styled(GrCertificate)`
   margin: 0px 8px 0 8px;
 `;
+
+export const CertBlock = styled.div`
+  color: #595a5a;
+  font-weight: bold;
+  line-height: 140%;
+  margin-left: 8px;
+  font-style: italic;
+  font-size: 12px;
+  display: flex;
+  align-items: flex-start;
+  &:hover {
+    cursor: pointer;
+    color: #90ee90;
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: 16px;
+  }
+`;

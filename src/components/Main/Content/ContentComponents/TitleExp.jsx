@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { RiTeamLine } from 'react-icons/ri';
 import { BsPerson } from 'react-icons/bs';
 
@@ -10,9 +11,22 @@ import {
   FiGithubStyled,
   AiFillGithubStyled,
   GrCertificateStyled,
+  CertBlock,
 } from './TitleExp.styled';
 
 const TitleExp = ({ item }) => {
+  const [isOpenModal, setIsOpenModal] = useState(false);
+
+  const openModal = () => {
+    console.log('openModal:', openModal);
+    setIsOpenModal(true);
+  };
+
+  const closeModal = () => {
+    console.log('closeModal:', closeModal);
+    setIsOpenModal(false);
+  };
+
   const { name, teamProject, url, git, inProcess } = item;
   const isScreenTablet = window.matchMedia('(min-width: 768px)').matches;
   return (
@@ -48,15 +62,15 @@ const TitleExp = ({ item }) => {
         {!inProcess && !git && (
           <>
             {isScreenTablet ? (
-              <GitLink href={git} target="_blank">
-                <GrCertificateStyled />
+              <CertBlock onClick={openModal}>
+                <GrCertificateStyled size={18} />
                 CERTIFICATE
-              </GitLink>
+              </CertBlock>
             ) : (
-              <GitLink href={git} target="_blank">
+              <CertBlock href={git} target="_blank">
                 <GrCertificateStyled size={16} />
                 certificate
-              </GitLink>
+              </CertBlock>
             )}
           </>
         )}

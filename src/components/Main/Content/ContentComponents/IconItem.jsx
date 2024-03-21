@@ -17,7 +17,6 @@ const IconItem = ({ isGit, gitUrl, inProcess }) => {
     );
   } else {
     if (inProcess) {
-      console.log('ONE IF:', inProcess);
       return (
         <Link href={gitUrl} target="_blank">
           <IconSandStyled>
@@ -26,7 +25,6 @@ const IconItem = ({ isGit, gitUrl, inProcess }) => {
         </Link>
       );
     } else {
-      console.log('ELSE:', inProcess);
       return (
         <Link href={gitUrl} target="_blank">
           <IconStyled>
