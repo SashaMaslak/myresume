@@ -33,7 +33,7 @@ export const TitleLink = styled.a`
 `;
 
 export const GitLink = styled.a`
-  color: var(--text-title);
+  color: #595a5a;
   font-weight: bold;
   line-height: 140%;
   margin-left: 8px;
