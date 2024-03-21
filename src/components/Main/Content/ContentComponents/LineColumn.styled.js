@@ -40,20 +40,3 @@ export const LineStyled = styled.span`
   position: relative;
   z-index: 1;
 `;
-
-export const IconGitStyled = styled.span`
-  display: block;
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  z-index: 2;
-`;
-
-export const Link = styled.a`
-  text-decoration: none;
-  color: inherit;
-  &:hover {
-    cursor: pointer;
-    color: #90ee90;
-  }
-`;

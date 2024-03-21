@@ -6,7 +6,7 @@ import Summary from './Summary/Summary';
 import Introduce from './Introduce/Introduce';
 import Contacts from './Contacts/Contacts';
 import OtherInfo from './OtherInfo/OtherInfo';
-import contacts from '../../contacts.json';
+import contacts from '../../json/contacts.json';
 import { GrClose } from 'react-icons/gr';
 import { RxHamburgerMenu } from 'react-icons/rx';
 

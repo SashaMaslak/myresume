@@ -1,0 +1,34 @@
+[
+  {
+    "name": "IT SCHOOL 'HILLEL'",
+    "startDate": "2024",
+    "finishDate": "2024",
+    "url": "https://ithillel.ua/",
+    "technologies": ["Frontend Pro Developer"],
+    "inProcess": true
+  },
+  {
+    "name": "FRIENDS CLUB",
+    "startDate": "2022",
+    "finishDate": "2023",
+    "url": "https://friendsclub.com.ua/",
+    "technologies": ["English level - Pre-Intermediate"],
+    "inProcess": false
+  },
+  {
+    "name": "IT SCHOOL 'GOIT'",
+    "startDate": "2022",
+    "finishDate": "2023",
+    "url": "https://goit.global/ua/",
+    "technologies": ["Fullstack developer"],
+    "inProcess": false
+  },
+  {
+    "name": "DNIPROVSKIY STATE TECHNICAL UNIVERSITY",
+    "startDate": "2004",
+    "finishDate": "2010",
+    "url": "https://www.dstu.dp.ua/uni/index.html",
+    "technologies": ["Graduated in Software Engineer"],
+    "inProcess": false
+  }
+]

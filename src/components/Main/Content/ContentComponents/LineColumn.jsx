@@ -1,26 +1,16 @@
-import { BsGithub } from 'react-icons/bs';
+import IconItem from './IconItem';
 
 import {
   LineStyled,
   CircleStyled,
   LineColumnStyled,
-  IconGitStyled,
-  Link,
 } from './LineColumn.styled';
 
-const LineColumn = ({ isGit, gitUrl }) => {
-  const isScreenDesctop = window.matchMedia('(min-width: 1024px)').matches;
-  let size = isScreenDesctop ? '25px' : '20px';
+const LineColumn = ({ isGit, gitUrl, inProcess }) => {
   return (
     <LineColumnStyled>
       <CircleStyled>
-        {isGit && (
-          <Link href={gitUrl} target="_blank">
-            <IconGitStyled>
-              <BsGithub size={size} />
-            </IconGitStyled>
-          </Link>
-        )}
+        <IconItem isGit={isGit} gitUrl={gitUrl} inProcess={inProcess} />
       </CircleStyled>
       <LineStyled />
     </LineColumnStyled>
