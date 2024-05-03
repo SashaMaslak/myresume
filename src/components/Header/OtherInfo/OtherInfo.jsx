@@ -1,5 +1,5 @@
 const OtherInfo = () => {
-  return <div textAlign="center"></div>;
+  return <div style={{ textAlign: 'center' }}></div>;
 };
 
 export default OtherInfo;

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-/* Стилі для модального вікна */
 
 export const ModalStyled = styled.div`
   position: fixed;
@@ -11,26 +10,41 @@ export const ModalStyled = styled.div`
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4); /* Півпрозорий фон */
 `;
+
 export const ModalContent = styled.div`
   position: relative;
   background-color: #fefefe;
-  margin: 15% auto;
+  margin: 1% auto;
   padding: 50px 20px 20px 20px;
   border: 1px solid #888;
-  width: 80%;
+  max-width: 50%;
+`;
+
+export const ModalImgBlock = styled.p`
+  display: flex;
+  justify-content: center; /* Вирівнювання по центру по горизонталі */
+  align-items: center; /* Вирівнювання по центру по вертикалі */
+  max-width: 100%; /* Максимальна ширина блоку */
+  overflow: hidden; /* Щоб картинка не виходила за межі блоку */
+`;
+
+export const SertStyled = styled.img`
+  max-width: 100%; /* Максимальна ширина картинки */
+  height: auto; /* Автоматична висота, щоб зберігти пропорції */
 `;
 
 export const ModalClose = styled.span`
   position: absolute;
   right: 32px;
   top: 16px;
-  color: #aaa;
+  color: var(--text-title);
   float: right;
-  font-size: 36px;
+  font-size: 16px;
   font-weight: bold;
   &:hover,
   &:focus {
-    color: black;
+    font-size: 18px;
+    color: var(--bg-sidebar);
     text-decoration: none;
     cursor: pointer;
   }

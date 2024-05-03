@@ -56,9 +56,7 @@ const TitleExp = ({ item }) => {
             {isScreenTablet ? (
               <CertBlock
                 onClick={() => {
-                  console.log('Open MODAL');
-                  console.log(openModal);
-                  openModal();
+                  openModal(item.name);
                 }}
               >
                 <GrCertificateStyled size={18} />

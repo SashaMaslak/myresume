@@ -29,7 +29,7 @@ export const LinkItem = styled.div`
   }
 `;
 
-export const StyledItem = styled.li`
+export const StyledItem = styled.div`
   @media screen and (max-width: 767px) {
     display: flex;
     flex-direction: row-reverse;

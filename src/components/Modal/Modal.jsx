@@ -1,11 +1,32 @@
 import React, { useContext } from 'react';
 import { ModalContext } from './ModalProvider';
+import diploma from '../../images/diploma1.jpg';
+import sertGoit from '../../images/cert_goit1.jpg';
+import sertEng from '../../images/cert_english.jpg';
 
-import { ModalStyled, ModalContent, ModalClose } from './Modal.styled';
+import {
+  ModalStyled,
+  ModalContent,
+  ModalImgBlock,
+  ModalClose,
+  SertStyled,
+} from './Modal.styled';
 
 // Компонент модального вікна
 export default function Modal() {
-  const { isOpen, closeModal } = useContext(ModalContext);
+  const { isOpen, closeModal, nameSert } = useContext(ModalContext);
+
+  let urlSert = '';
+
+  if (nameSert === 'DNIPROVSKIY STATE TECHNICAL UNIVERSITY') {
+    urlSert = diploma;
+  }
+  if (nameSert === "IT SCHOOL 'GOIT'") {
+    urlSert = sertGoit;
+  }
+  if (nameSert === 'FRIENDS CLUB') {
+    urlSert = sertEng;
+  }
 
   if (!isOpen) return null;
 
@@ -13,20 +34,9 @@ export default function Modal() {
     <ModalStyled>
       <ModalContent>
         <ModalClose onClick={closeModal}>Close &times;</ModalClose>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quos
-          voluptatem est pariatur nostrum explicabo aliquid sint sed nisi
-          voluptatibus nulla magnam asperiores, accusamus voluptates deleniti
-          porro vel praesentium placeat sunt, vero perspiciatis autem molestias
-          earum architecto? Necessitatibus harum rem doloribus pariatur
-          perferendis! Sunt porro exercitationem autem dicta earum neque
-          perferendis veritatis, deleniti illum itaque accusamus nulla facilis
-          amet voluptas consequuntur, qui minima maiores reprehenderit
-          voluptatem? Quos vitae officiis accusantium magni aliquid odio
-          voluptate similique sed nulla quidem rerum, distinctio aliquam ea?
-          Inventore voluptas beatae et eligendi debitis quod ad atque? Omnis
-          eligendi aliquam necessitatibus praesentium incidunt porro ratione ut.
-        </p>
+        <ModalImgBlock>
+          <SertStyled src={urlSert} alt="sertificate" />
+        </ModalImgBlock>
       </ModalContent>
     </ModalStyled>
   );
