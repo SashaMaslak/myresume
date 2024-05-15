@@ -58,7 +58,7 @@ const Sidebar = ({
             {title}
           </ItemLink>
         );
-      case '+380954682172':
+      case '+380631828525':
         return (
           <ItemLink href={link} target="_blank">
             <BsFillPhoneVibrateFillStyled size={18} />
