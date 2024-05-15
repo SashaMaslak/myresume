@@ -4,8 +4,8 @@ import { Copyright, CopyrightLink } from './Footer.styled';
 const Footer = () => {
   return (
     <div>
-      <CopyrightLink href="https://github.com/SashaMaslak">
-        <Copyright>SashaMaslak © 2023</Copyright>
+      <CopyrightLink href="https://sashamaslak.github.io/myresume/">
+        <Copyright>Link Resume SashaMaslak © 2023</Copyright>
       </CopyrightLink>
     </div>
   );
