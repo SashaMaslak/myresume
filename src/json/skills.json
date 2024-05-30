@@ -2,13 +2,15 @@
   {
     "title": "TECH SKILLS:",
     "skillsList": [
-      "HTML5 / CSS3 / SASS",
+      "HTML / CSS / SASS",
       "GIT",
       "JavaScript",
       "TypeScript",
       "React / React native",
       "Redux",
-      "Node.js"
+      "Next",
+      "Node",
+      "Nest"
     ]
   },
   {

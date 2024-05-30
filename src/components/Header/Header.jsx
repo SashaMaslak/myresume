@@ -12,9 +12,6 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 
 const Header = () => {
   const [isOpenModal, setIsOpenModal] = useState(false);
-  // const [isScreenTablet, setIsScreenTablet] = useState(
-  //   window.matchMedia('(min-width: 768px)').matches
-  // );
 
   const isScreenTablet = window.matchMedia('(min-width: 768px)').matches;
 
@@ -40,14 +37,14 @@ const Header = () => {
         {!isOpenModal && (
           <Summary
             title="S U M M A R Y"
-            text="I am a Junior Front-End developer. I focus on HTML5, CSS3, JS, React. English — Pre-Intermediate. Looking for a remote job. Development, practice and work for the result are important for me. My goal is to find a decent job and become an integral part of a team of professionals!"
+            text="I am a Junior Full-Stack Developer with a focus on HTML, CSS, SASS, JS, Typescript, React, Next, Node, Nest - technologies. I have a Pre-Intermediate level of English and am looking for a remote job. Development, continuous practice, and achieving results are important to me. My goal is to find a rewarding position and become an integral part of a professional team!"
           />
         )}
       </About>
       <Hero>
         <Introduce
           name="OLEKSANDR MASLAK"
-          profession="JUNIOR FROND-END DEVELOPER"
+          profession="JUNIOR FULL-STACK DEVELOPER"
         />
         <Contacts contacts={contacts} />
         {isScreenTablet && <OtherInfo />}
