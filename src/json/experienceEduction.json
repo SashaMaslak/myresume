@@ -1,6 +1,14 @@
 [
   {
-    "name": "IT SCHOOL 'HILLEL' - TS",
+    "name": "IT SCHOOL 'HILLEL' - NODE JS",
+    "startDate": "2024",
+    "finishDate": "2024",
+    "url": "https://ithillel.ua/",
+    "technologies": ["Node JS Developer"],
+    "inProcess": true
+  },
+  {
+    "name": "IT SCHOOL 'HILLEL' - TYPESCRIPT",
     "startDate": "2024",
     "finishDate": "2024",
     "url": "https://ithillel.ua/",
@@ -8,7 +16,7 @@
     "inProcess": true
   },
   {
-    "name": "IT SCHOOL 'HILLEL' - FE",
+    "name": "IT SCHOOL 'HILLEL' - FRONTEND",
     "startDate": "2024",
     "finishDate": "2024",
     "url": "https://ithillel.ua/",
@@ -16,7 +24,7 @@
     "inProcess": false
   },
   {
-    "name": "FRIENDS CLUB",
+    "name": "FRIENDS ENGLISH CLUB",
     "startDate": "2022",
     "finishDate": "2023",
     "url": "https://friendsclub.com.ua/",
@@ -24,7 +32,7 @@
     "inProcess": false
   },
   {
-    "name": "IT SCHOOL 'GOIT'",
+    "name": "IT SCHOOL 'GOIT' FULLSTACK",
     "startDate": "2022",
     "finishDate": "2023",
     "url": "https://goit.global/ua/",
