@@ -22,15 +22,17 @@ export default function Modal() {
   if (nameSert === 'DNIPROVSKIY STATE TECHNICAL UNIVERSITY') {
     urlSert = diploma;
   }
-  if (nameSert === "IT SCHOOL 'GOIT'") {
+  if (nameSert === "IT SCHOOL 'GOIT' FULLSTACK") {
     urlSert = sertGoit;
   }
-  if (nameSert === 'FRIENDS CLUB') {
+  if (nameSert === 'FRIENDS ENGLISH CLUB') {
     urlSert = sertEng;
   }
-  if (nameSert === "IT SCHOOL 'HILLEL' - FE") {
+  if (nameSert === "IT SCHOOL 'HILLEL' - FRONTEND") {
     urlSert = sertHillel1;
   }
+  console.log('urlSert:', urlSert);
+  console.log('urlSert:', urlSert);
 
   if (!isOpen) return null;
 
