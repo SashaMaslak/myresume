@@ -1,11 +1,19 @@
 [
   {
+    "name": "IT SCHOOL 'HILLEL' - ENGILSH B1",
+    "startDate": "2024",
+    "finishDate": "2025",
+    "url": "https://ithillel.ua/",
+    "technologies": ["English level - Intermediate"],
+    "inProcess": true
+  },
+  {
     "name": "IT SCHOOL 'HILLEL' - NODE JS",
     "startDate": "2024",
     "finishDate": "2024",
     "url": "https://ithillel.ua/",
     "technologies": ["Node JS Developer"],
-    "inProcess": true
+    "inProcess": false
   },
   {
     "name": "IT SCHOOL 'HILLEL' - TYPESCRIPT",
