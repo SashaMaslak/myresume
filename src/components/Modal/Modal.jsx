@@ -5,6 +5,7 @@ import sertGoit from '../../images/cert_goit1.jpg';
 import sertEng from '../../images/cert_english.jpg';
 import sertHillel1 from '../../images/cert_hillel1.png';
 import sertHillel2 from '../../images/cert_hillel2.png';
+import sertHillel3 from '../../images/cert_hillel3.png';
 
 import {
   ModalStyled,
@@ -35,8 +36,9 @@ export default function Modal() {
   if (nameSert === "IT SCHOOL 'HILLEL' - TYPESCRIPT") {
     urlSert = sertHillel2;
   }
-  console.log('urlSert:', urlSert);
-  console.log('urlSert:', urlSert);
+  if (nameSert === "IT SCHOOL 'HILLEL' - NODE JS") {
+    urlSert = sertHillel3;
+  }
 
   if (!isOpen) return null;
 
