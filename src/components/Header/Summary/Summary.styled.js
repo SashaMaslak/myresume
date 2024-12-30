@@ -11,7 +11,7 @@ export const SummaryStyled = styled.div`
     text-align: center;
     padding: 16px 48px;
   }
-  padding: 32px;
+  padding: 24px 8px 8px 24px;
   max-width: 600px;
 `;
 

@@ -37,7 +37,7 @@ const Header = () => {
         {!isOpenModal && (
           <Summary
             title="S U M M A R Y"
-            text="I am a Junior Full-Stack Developer with a focus on HTML, CSS, SASS, JS, Typescript, React, Next, Node, Nest - technologies. I have a Pre-Intermediate level of English and am looking for a remote job. Development, continuous practice, and achieving results are important to me. My goal is to find a rewarding position and become an integral part of a professional team!"
+            text="I am a Junior Full-Stack Developer with a strong foundation in HTML, CSS, SASS, JavaScript, TypeScript, React, Next.js, Node.js, and Nest.js. My experience includes completing intensive courses, personal projects, and team collaborations. With an Intermediate level of English, I am seeking a remote position. I am passionate about development, continuous learning, and improving my skills. My goal is to grow within a dynamic team and contribute to driving innovation and success."
           />
         )}
       </About>
