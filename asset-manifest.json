@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/myresume/static/css/main.fc2d1922.css",
-    "main.js": "/myresume/static/js/main.2bc3acc6.js",
+    "main.js": "/myresume/static/js/main.e47a6989.js",
     "static/media/cert_hillel2.png": "/myresume/static/media/cert_hillel2.997e09198fbe95d40460.png",
+    "static/media/cert_hillel4.png": "/myresume/static/media/cert_hillel4.6dd448283dd9c05736ed.png",
     "static/media/cert_hillel3.png": "/myresume/static/media/cert_hillel3.5f6ded7a2725eeafe1df.png",
     "static/media/cert_hillel1.png": "/myresume/static/media/cert_hillel1.d10de38c68ab39d30e7a.png",
     "static/media/cert_goit1.jpg": "/myresume/static/media/cert_goit1.a50e3fe3e87ff27e3427.jpg",
@@ -11,10 +12,10 @@
     "static/media/photo.jpg": "/myresume/static/media/photo.b1b2a2806c6f38ae2c4a.jpg",
     "index.html": "/myresume/index.html",
     "main.fc2d1922.css.map": "/myresume/static/css/main.fc2d1922.css.map",
-    "main.2bc3acc6.js.map": "/myresume/static/js/main.2bc3acc6.js.map"
+    "main.e47a6989.js.map": "/myresume/static/js/main.e47a6989.js.map"
   },
   "entrypoints": [
     "static/css/main.fc2d1922.css",
-    "static/js/main.2bc3acc6.js"
+    "static/js/main.e47a6989.js"
   ]
 }
