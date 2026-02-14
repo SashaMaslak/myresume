@@ -6,7 +6,7 @@ import { IconStyled, IconSandStyled, Link } from './IconItem.styled';
 
 const IconItem = ({ isGit, gitUrl, inProcess }) => {
   const isScreenDesctop = window.matchMedia('(min-width: 1024px)').matches;
-  let size = isScreenDesctop ? '30px' : '20px';
+  let size = isScreenDesctop ? '32px' : '20px';
   if (isGit) {
     return (
       <Link href={gitUrl} target="_blank">
